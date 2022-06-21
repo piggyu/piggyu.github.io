@@ -14,7 +14,11 @@ p, li {
   line-height: 2;
   letter-spacing: 1px;
 }
+p {
 
+color: red;
+
+}
 
 html {
   background-color: #00539F;
