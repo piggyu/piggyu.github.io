@@ -1,0 +1,12 @@
+{
+    "name": "flems",
+    "version": "0.1.0",
+    "description": "Created on https://flems.io",
+    "dependencies": {},
+    "scripts": {
+        "dev": "wright index.html"
+    },
+    "devDependencies": {
+        "wright": "*"
+    }
+}
