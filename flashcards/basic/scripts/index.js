@@ -1,4 +1,4 @@
-//create flashcard objects which contain questions and answers
+//Create flashcard objects which contain questions and answers
 const myFlashcards1 = {
   question: 'What is the color of sky?',
   answer: 'blue'
@@ -12,12 +12,12 @@ const myFlashcards3 = {
   answer: '911'
 };
 
-//put the flashcards objects to myFlashcards array
+//Put the flashcards objects to myFlashcards array
 let myFlashcards=[myFlashcards1,myFlashcards2,myFlashcards3];
 let questionmart=document.getElementById("questionmart");
 let answermart=document.getElementById("answermart");
 
-//add a listener that shows the answer with one click
+//Add a listener that shows the answer with one click
 let myFlashcardsindex=0;
 let i=myFlashcardsindex;
 function showanswer(){
@@ -26,8 +26,7 @@ function showanswer(){
   }
 }
 
-//define the functions for the previous and next button to display one question at a time
-//and it moves in endless cycles
+//Define the functions for the previous and next button to display one question at a time
 function next(){
   if(i>myFlashcards.length-2)
   {i=0;}
