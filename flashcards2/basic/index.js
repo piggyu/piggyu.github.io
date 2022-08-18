@@ -10,8 +10,11 @@ let myFlashcards3={
   question:document.getElementById("q3"),
   answer:document.getElementById("a3")
 };
+
+//put the flashcards objects to myFlashcards array
 let myFlashcards=[myFlashcards1,myFlashcards2,myFlashcards3];
 
+//set the initial display of all the q&a invisible
 let myFlashcardsindex=0;
 let i=myFlashcardsindex;
 document.getElementById("a1").style.display="none";
@@ -20,6 +23,7 @@ document.getElementById("a2").style.display="none";
 document.getElementById("q3").style.display="none";
 document.getElementById("a3").style.display="none";
 
+//define the functions for the previous and next button to display one question at a time
 function next(){
   myFlashcards[i].question.style.display="none";
   myFlashcards[i].answer.style.display="none";
